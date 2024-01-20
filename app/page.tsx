@@ -121,7 +121,7 @@ const plans: any = [
 
 // Added recently
 
-export async function POST(request: Request) {
+async function POST(request: Request) {
   const requestUrl = new URL(request.url)
   const formData = await request.formData()
 
