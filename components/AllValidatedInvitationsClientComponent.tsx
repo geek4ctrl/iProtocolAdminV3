@@ -315,7 +315,11 @@ export default function AllValidatedInvitationsClientComponent({ allValidatedInv
                                     <h1>{state.diocese}</h1>
                                 </div>
 
-                                <div className="" style={{ textAlign: "-webkit-center", paddingBottom: "3rem" }}>
+                                {/* <div className="" style={{ textAlign: "-webkit-center", paddingBottom: "3rem" }}>
+                                    <QRCode value={modalContent.userid} />
+                                </div> */}
+
+                                <div className="">
                                     <QRCode value={modalContent.userid} />
                                 </div>
                             </div>
