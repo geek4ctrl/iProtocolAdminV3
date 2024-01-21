@@ -318,13 +318,13 @@ export default function AllValidatedAccreditationsClientComponent({ allValidated
                                     <h1>{state.diocese}</h1>
                                 </div>
 
-                                {/* <div className="" style={{ textAlign: "-webkit-center", paddingBottom: "3rem" }}>
-                                    <QRCode value={qrCodeContent} />
-                                </div> */}
-
-                                <div className="" >
+                                <div className="qr-code-alignment">
                                     <QRCode value={qrCodeContent} />
                                 </div>
+
+                                {/* <div className="" >
+                                    <QRCode value={qrCodeContent} />
+                                </div> */}
                             </div>
 
                             <div className="flex items-center gap-3 p-4 mt-5 border-t" style={{ display: "flex", flexDirection: "row", justifyContent: "center" }}>
